@@ -4,18 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/all.css">
     <title>Home | Parth Garg</title>
 </head>
 
 <body>
-    <div class="greeting-wrapper">
+    <div class="container-fluid greeting-wrapper">
         <div class="text-wrapper">
-            <p class="line">Hi, I'm Parth Garg.</p>
-            <p class="line">This is my portfolio sight.</p>
+            <h1 class="line">Hi, I'm Parth Garg.</h1>
+            <h1 class="line">This is my portfolio sight.</h1>
             <br>
             <div class="link-wrapper">
-                <a class="project-link">View My Stuff &rarr;</a>
+                <a id="project-btn">View My Stuff &rarr;</a>
+            </div>
+        </div>
+    </div>
+    <div class="projects-wrapper">
+        <h1 class="project-header">Projects</h1>
+
+        <div class="cards">
+            <div class="card">
+                <img src="assets/cube-thumbnail.png" alt="cubes" class="thumbnail">
+                <h3 class="title">Javascript 3D Rubiks Cube</h3>
+                <ul>
+                    <li>p5.js</li>
+                </ul>
+                <a class="director">Demo</a>
             </div>
         </div>
     </div>
