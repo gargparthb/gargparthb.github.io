@@ -17,9 +17,24 @@ body {
 }
 
 .line {
-    margin: 0;
     color: white;
     text-align: center;
     font-family: monospace;
     font-size: 300%;
+}
+
+.link-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-link {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    border-style: solid;
+    font-size: 150%;
+    padding: 0.5em;
 }
