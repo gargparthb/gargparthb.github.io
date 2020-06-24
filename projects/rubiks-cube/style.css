@@ -1,0 +1,35 @@
+button {
+  background-color: #FF8C69;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  margin: 10px;
+}
+
+canvas {
+  border-radius: 10px;
+}
+
+#container {
+  display: flexbox;
+  flex-direction: row;
+}
+
+#window-wrapper {
+  width: 50%;
+  margin: 0.8%;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+
+#button-wrapper {
+  display: flexbox;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  width: 40%;
+  float: right;
+}
