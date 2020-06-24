@@ -3,6 +3,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: monospace;
+  scroll-behavior: smooth;
 }
 
 .greeting-wrapper {
@@ -47,6 +48,7 @@ body {
   text-align: center;
   font-size: 150%;
   padding: 0.5em;
+  text-decoration: none;
   -webkit-transition: color 0.3s ease-out;
   transition: color 0.3s ease-out;
   -webkit-transition: background-color 0.3s ease-out;
@@ -102,9 +104,28 @@ ul, li {
 
 .list-heading {
   color: white;
+  margin: auto 0;
 }
 
 .thumbnail {
   width: 100%;
+}
+
+.director {
+  color: white;
+  margin: 1em;
+  padding: 1em;
+  border-style: solid;
+  text-decoration: none;
+  background-color: salmon;
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.director:hover {
+  color: salmon;
+  background-color: white;
 }
 /*# sourceMappingURL=all.css.map */

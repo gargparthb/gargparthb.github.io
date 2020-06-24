@@ -7,6 +7,8 @@ body
 
     font-family: monospace
 
+    scroll-behavior: smooth
+
 .greeting-wrapper
     width: 100%
     height: 100%
@@ -36,6 +38,7 @@ body
     text-align: center
     font-size: 150%
     padding: 0.5em
+    text-decoration: none
 
     transition: color 0.3s ease-out
     transition: background-color 0.3s ease-out
@@ -74,6 +77,21 @@ ul, li
 
 .list-heading
     color: white
+    margin: auto 0
 
 .thumbnail
     width: 100%
+
+.director
+    color: white
+    margin: 1em
+    padding: 1em
+    border-style: solid
+    text-decoration: none
+    background-color: $accent
+    transition: color 0.3s ease-out
+    transition: background-color 0.3s ease-out
+
+    &:hover
+        color: $accent
+        background-color: white

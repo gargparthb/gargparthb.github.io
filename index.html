@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="container-fluid greeting-wrapper">
+    <div class="greeting-wrapper">
         <div class="text-wrapper">
             <h1 class="line">Hi, I'm Parth Garg.</h1>
             <h1 class="line">This is my portfolio sight.</h1>
@@ -19,21 +19,33 @@
             </div>
         </div>
     </div>
-    <div class="projects-wrapper">
+    <div class="projects-wrapper" id="projects">
         <h1 class="project-header">Projects</h1>
 
         <div class="cards">
             <div class="card">
-                <img src="assets/cube-thumbnail.png" alt="cubes" class="thumbnail">
-                <h3 class="title">Javascript 3D Rubiks Cube</h3>
-                <p class="list-heading">Tools:</p>
-                <ul>
-                    <li>p5.js</li>
-                </ul>
-                <a class="director">Demo</a>
+                <img class="thumbnail" src="assets/cube-thumbnail.png" alt="cube">
+                <h2 class="title">Javascript 3D Rubiks Cube</h3>
+                    <p class="list-heading">Tools:</p>
+                    <ul>
+                        <li>p5.js</li>
+                    </ul>
+                    <a href="projects/rubiks-cube/cube.htm" class="director">Demo</a>
+                    <a href="https://github.com/gargparthb/webgl-rubiks-cube" class="director">Source Code</a>
             </div>
         </div>
     </div>
+
+    <script>
+        let projectLink = document.querySelector('#project-btn')
+        let projectHeading = document.querySelector('#projects');
+
+        projectLink.addEventListener("click", () => projectHeading.scrollIntoView({
+            behavior: "smooth",
+            block: "end",
+            inline: "nearest"
+        }));
+    </script>
 </body>
 
 </html>
